@@ -1,0 +1,25 @@
+{
+  "name": "search-book",
+  "version": "0.1.0",
+  "description": "A module for searching book from Google, Amazon, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankYang0529/search-book.git"
+  },
+  "keywords": [
+    "book"
+  ],
+  "author": "Frank Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrankYang0529/search-book/issues"
+  },
+  "homepage": "https://github.com/FrankYang0529/search-book#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
