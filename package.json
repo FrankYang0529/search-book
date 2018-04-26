@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "searchBook": "./bin/searchBook.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrankYang0529/search-book.git"
