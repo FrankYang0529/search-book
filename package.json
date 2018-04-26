@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/FrankYang0529/search-book#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.15.1",
+    "lodash": "^4.17.10",
+    "tty-table": "^2.6.2"
   }
 }
