@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const program = require('commander')
-const Table = require('tty-table');
+const Table = require('tty-table')
 
 const searchBook = require('..')
 
@@ -49,11 +49,11 @@ const header = [
 
 searchBook(program.platform, program.args.join(' '), options)
   .then((result) => {
-    const books = result.map((book) => {
+    result.map((book) => {
       const { title, authors, publisher } = book
       return {
         title,
-        authors: book.authors.join(', '),
+        authors: authors.join(', '),
         publisher
       }
     })

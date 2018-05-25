@@ -13,8 +13,8 @@ const defaultOptions = {
   // Restrict results to books or magazines (or both)
   type: 'all',
   // Order results by relevance or newest
-  order: 'relevance',
-};
+  order: 'relevance'
+}
 
 const searchBook = async (platform, query, options) => {
   if (!query) {
@@ -47,7 +47,8 @@ const searchBook = async (platform, query, options) => {
     throw new Error('Please input correct platform name google or book.')
   }
 
-  return await parseFunc(query, userOptions)
+  const books = await parseFunc(query, userOptions)
+  return books
 }
 
 module.exports = searchBook
